@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita H's Coding Odyssey</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+</head>
+
+<body>
+ 
+
+    <header style="text-align: center; background-color: rgb(24, 236, 225);">
+        <h1>Anita H's Coding Odyssey</h1>
+        <p>Three Years of Striving: In Vain or In Victory</p>
+        <!-- Updated header links -->
+        <div>
+            <a href="#myProjects"><i class="material-icons">folder_open</i> My Projects</a>
+        </div>
+        <div>
+            <a href="#aboutSection" class="about-link">
+                <i class="fas fa-user"></i> About Me
+            </a>
+        </div>
+    </header>
+
+    <section id="about">
+        
+        <img src="Personal Logo.png" alt="Anita" style="width: 300px; height: 300px;">
+    </section>
+
+    <section id="aboutSection">
+        <h2 class="section-title">About Me</h2>
+        <p >
+            <p>📖 Introduction</p>
+            Welcome to "Anita H's Coding Odyssey" – a journey from the structured world of construction engineering to the logical realms of software development.
+            
+            <p>🌟 About Me</p>
+            
+            <p>Hello! I'm Anita, a seasoned Project Administrator in the construction engineering sector, currently transitioning my career path towards Software Development. Over the years, I've developed a deep fascination for technology and programming, leading me to embark on a transformative journey in learning Java.</p>
+            
+            <p>🏗 Professional Background</p>
+            
+            <p>In my current role as a Project Admin for a top-tier construction engineering company, I've had the privilege of being involved in several high-profile projects across the USA. My portfolio includes the Delta Terminal renovation at LAX and the iconic Hard Rock Casino in Las Vegas. These projects have sharpened my skills in project management, team collaboration, and problem-solving - all of which are integral to my transition into software development.</p>
+            
+            <p>💻 My Tech Journey</p>
+            
+            <p>Driven by my passion for technology, I've dedicated years to learning Java, building a solid foundation in programming concepts, data structures, and algorithms. This journey has been more than just learning a language; it's been about adopting a new way of thinking, solving problems, and embracing the challenges of coding.</p>
+            
+            <p>🌐 Looking Ahead</p>
+            
+            <p>As I transition into a Software Development Engineer role, I bring a unique blend of technical acumen, engineering background, and a fresh perspective to software development. This website is a testament to my journey - a showcase of my Java projects, learning milestones, and my continuous growth in the world of tech.
+            </p>
+            <p>🔍 Join Me</p>
+            
+           <p>Whether you're a fellow tech enthusiast, a potential employer, or just passing by, I invite you to explore my site, view my projects, and join me on this exciting journey into the world of software development!</p> </p>
+        <!-- More about you -->
+    </section>
+
+
+    <!-- PROJECTS TO BE LINKED -->
+<section id="myProjects">
+    <h2>My Projects</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/yourusername/project1" target="_blank">Project 1</a> - Description of Project 1.
+        </li>
+        <li>
+            <a href="https://github.com/yourusername/project2" target="_blank">Project 2</a> - Description of Project 2.
+        </li>
+    </ul>
+</section>
+
+    <div class="container">
+        <!-- Left Column: Learning Timeline -->
+        <div class="left-column">
+            <section id="timeline">
+                <h2>My Learning Timeline</h2>
+                <!-- Timeline Form for Adding New Entries -->
+                <div class="timeline-form">
+                    <input type="text" id="timelineDate" placeholder="Date (e.g., Jan 1, 2024)">
+                    <input type="text" id="timelineTitle" placeholder="Title (e.g., Completed Java Course)">
+                    <textarea id="timelineDescription" placeholder="Description"></textarea>
+                    <button id="addTimelineButton">Add to Timeline</button>
+                </div>
+                <!-- Container Where Timeline Entries Will Be Displayed -->
+                <div class="timeline-container" id="timelineContainer">
+                    <!-- Existing and new timeline items will appear here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Right Column: Videos and Questions -->
+        <div class="right-column">
+            <section id="videos">
+                <h2>Learning Videos</h2>
+                <div>
+                    <input type="text" id="videoUrl" placeholder="Enter video URL">
+                    <button onclick="uploadVideo()">Upload Video</button>
+                </div>
+                <div id="videoContainer">
+                    <!-- Uploaded videos will be listed here -->
+                </div>
+            </section>
+            
+
+            <section id="qa">
+                <h2>Questions & Answers</h2>
+                <div>
+                    <input type="text" id="questionInput" placeholder="Enter your question">
+                    <input type="text" id="answerInput" placeholder="Enter the answer">
+                    <button onclick="addQuestion()">Add Q&A</button>
+                </div>
+                <div id="qaContainer">
+                    <!-- Q&A entries will be listed here -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+   
+
+    <footer>
+        <p style="color: rgb(238, 245, 238);">Contact me at: <a style="color: rgb(23, 186, 37); href="mailto:anita@example.com">2369wang@gmail.com</a></p>
+        <!-- Social media links -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your external JavaScript file -->
+</body>
+</html>
